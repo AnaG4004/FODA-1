@@ -1,0 +1,44 @@
+# Análisis FODA de La Negra María (Restaurante y Cevichería)
+
+def mostrar_foda():
+    foda = {
+        'Fortalezas': [
+            "Calidad y frescura de los productos.",
+            "Ubicación estratégica en zona de alto tránsito turístico.",
+            "Excelente atención al cliente.",
+            "Recetas tradicionales de cocina peruana.",
+            "Buena presencia en redes sociales."
+        ],
+        'Oportunidades': [
+            "Expansión de la oferta gastronómica.",
+            "Incremento del turismo en la ciudad.",
+            "Alianzas con plataformas de delivery.",
+            "Creación de una línea de productos preparados.",
+            "Eventos temáticos y promociones."
+        ],
+        'Debilidades': [
+            "Dependencia de ingredientes frescos.",
+            "Costos operativos elevados.",
+            "Limitación de espacio para atender a grandes grupos.",
+            "Falta de diversificación de ingresos.",
+            "Dependencia de un nicho específico."
+        ],
+        'Amenazas': [
+            "Competencia local que ofrece precios más bajos.",
+            "Aumento de los costos de los ingredientes.",
+            "Cambios en la regulación de la industria alimentaria.",
+            "Situaciones climáticas adversas que afectan la pesca.",
+            "Impacto de la economía local en el gasto de los consumidores."
+        ]
+    }
+    
+    print("Análisis FODA de 'La Negra María' - Restaurante y Cevichería\n")
+    
+    for categoria, items in foda.items():
+        print(f"{categoria}:")
+        for i, item in enumerate(items, 1):
+            print(f"  {i}. {item}")
+        print("\n")
+
+# Mostrar el análisis FODA
+mostrar_foda()
